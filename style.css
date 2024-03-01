@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header p {
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+#title {
+    text-align: center;
+    font-size: 4rem;
+}
+
+img {
+    height: 450px;
+    width: 450px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.image:hover .overlay {
+    opacity: 1;
+}
+
+.quote {
+    background-color: black;
+    color: white;
+    height: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding: 2rem;
+}
+
+.quote :nth-child(2) {
+    font-size: 1rem;
+}
+
+.timeline {
+    height: auto;
+    width: 80%;
+    font-size: 1.2rem;
+    margin: auto;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.4);
+    padding: 2rem;
+}
+
+.timeline ul li {
+    margin-bottom: 1rem;
+    list-style-type: square;
+}
+
+.timeline h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.timeline p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
